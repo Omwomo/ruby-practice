@@ -8,7 +8,7 @@ class MyList
     @list = list
   end
 
-  def each(&block) # Use explicit block argument
-    @list.each(&block) # Pass the block to each using &
+  def each(&block)
+    @list.each(&block) 
   end
 end
