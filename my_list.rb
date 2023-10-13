@@ -9,6 +9,6 @@ class MyList
   end
 
   def each(&block)
-    @list.each(&block) 
+    @list.each(&block)
   end
 end
