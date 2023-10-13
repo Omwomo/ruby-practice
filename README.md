@@ -14,7 +14,6 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-    <!-- - [🚀 Live Demo](#live-demo) -->
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -36,17 +35,16 @@
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
+<summary>[Ruby](https://rubocop.org/)</summary>
+
 </details>
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- Creating classes in ruby and understanding their methods and instances
+- Creating classes in ruby and understanding their methods and instances.
+- Added ALL, ANY , & filter methods which can be used on any generated class
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -54,7 +52,8 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-- Create a ruby class and methods 
+- Clone the project `git clone https://github.com/Omwomo/ruby-practice.git .` to the directory of your desire 
+- Set up your [linter](https://github.com/microverseinc/linters-config/blob/master/ruby/) testing file 
 
 ### Prerequisites
 
@@ -84,13 +83,13 @@ Clone this repository to your desired folder:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features
-- Building a more complex Enumerable database with more tables and data 
+- Adding a more complex Enumerable methods with more tables and data 
 
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/GeekyHacks/MedicalClinicRuby/issues).
+Feel free to check the [issues page](https://github.com/Omwomo/ruby-practice/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
