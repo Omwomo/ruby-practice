@@ -1,4 +1,5 @@
-require_relative 'MyEnumerable'
+# Represents a custom list class.
+require_relative 'my_enumerable'
 
 class MyList
   include MyEnumerable
@@ -7,7 +8,7 @@ class MyList
     @list = list
   end
 
-  def each
-    @list.each { |item| yield(item) }
+  def each(&block) # Use explicit block argument
+    @list.each(&block) # Pass the block to each using &
   end
 end
